@@ -1,0 +1,14 @@
+{
+  "seed": 42,
+  "sample_rate": 16000,
+  "clip_duration": 10.0,
+  "n_mels": 64,
+  "n_fft": 1024,
+  "hop_length": 512,
+  "batch_size": 4,
+  "workers": 0,
+  "device": "cpu",
+  "machine_type": "fan",
+  "machine_id": "id_00",
+  "archive": "D:/MachineGuardData/mimii/dev_data_fan.zip"
+}

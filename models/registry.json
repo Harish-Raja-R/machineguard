@@ -1,0 +1,32 @@
+{
+  "one_class_svm": {
+    "status": "trained",
+    "artifact_path": null,
+    "machine": "fan/id_00",
+    "version": "baseline-1"
+  },
+  "isolation_forest": {
+    "status": "trained",
+    "artifact_path": null,
+    "machine": "fan/id_00",
+    "version": "baseline-1"
+  },
+  "cnn_autoencoder": {
+    "status": "not_trained",
+    "artifact_path": null
+  },
+  "cnn": {
+    "status": "not_trained",
+    "artifact_path": null
+  },
+  "cnn_attention": {
+    "status": "trained",
+    "artifact_path": "models/cnn_attention.pth",
+    "machine": "fan/id_00",
+    "version": "experiment-1"
+  },
+  "hybrid": {
+    "status": "not_trained",
+    "artifact_path": null
+  }
+}

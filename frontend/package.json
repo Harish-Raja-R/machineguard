@@ -1,0 +1,5 @@
+{
+  "name":"machineguard-frontend","private":true,"version":"1.0.0","type":"module",
+  "scripts":{"dev":"vite","build":"vite build"},
+  "dependencies":{"react":"^18.3.1","react-dom":"^18.3.1","react-router-dom":"^7.9.2","vite":"^7.1.7","typescript":"^5.9.2"}
+}

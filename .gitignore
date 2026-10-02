@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+.venv/
+.env
+.pytest_cache/
+*.wav
+*.flac
+*.mp3
+*.zip
+data/raw/*
+data/processed/*
+models/**/*.pt
+models/**/*.pth
+models/**/*.joblib
+node_modules/
+frontend/dist/

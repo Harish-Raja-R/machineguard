@@ -1,0 +1,14 @@
+{
+  "model": "Isolation Forest",
+  "machine": "fan/id_00",
+  "train_normal": 729,
+  "validation_normal": 182,
+  "test": 507,
+  "features": "MFCC mean + standard deviation",
+  "roc_auc": 0.5213,
+  "pauc": 0.4888,
+  "precision": 0.7419,
+  "recall": 0.0565,
+  "f1": 0.105,
+  "status": "verified_baseline"
+}
