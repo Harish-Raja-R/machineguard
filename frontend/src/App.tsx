@@ -9,8 +9,9 @@ import {
   useNavigate,
 } from "react-router-dom";
 
-const API =
-  import.meta.env.VITE_API_BASE ?? "http://localhost:8000";
+const API = import.meta.env.VITE_API_HOST
+  ? `https://${import.meta.env.VITE_API_HOST}`
+  : (import.meta.env.VITE_API_BASE ?? "http://localhost:8000");
 
 type Model = {
   id: string;
